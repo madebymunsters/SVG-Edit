@@ -1,5 +1,5 @@
 ﻿body {
-	background: #D0D0D0;
+	background: #333;
 }
 
 html, body, div{
@@ -66,8 +66,7 @@ select {
 	  A subtle gradient effect in the canvas.
 	  Just experimenting - not sure if this is worth it.
 	*/
-	background: -moz-radial-gradient(45deg,#bbb,#222);
-	background: -webkit-gradient(radial, center center, 3, center center, 1000, from(#bbb), to(#222));
+	background: #333;
 }
 
 /* Rulers
@@ -75,7 +74,7 @@ select {
 
 #rulers > div {
 	position: absolute;
-	background: #DDD;
+	background: #555;
 	z-index: 1;
 	overflow: hidden;
 }
